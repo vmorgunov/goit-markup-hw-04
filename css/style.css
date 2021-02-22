@@ -485,7 +485,7 @@ a {
   margin-right: 0;
 }
 
-.portfolio-item .gallery-list {
+.gallery-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
