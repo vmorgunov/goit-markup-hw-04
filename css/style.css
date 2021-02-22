@@ -530,3 +530,12 @@ a {
 .gallery-item-text-container {
   padding: 20px 24px;
 }
+
+.thumb {
+  width: 370px;
+  height: 294px;
+}
+
+.thumb img {
+  object-fit: cover;
+}
