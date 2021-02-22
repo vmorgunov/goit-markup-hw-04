@@ -492,15 +492,14 @@ a {
 
 .gallery-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin: -30px 0 0 -30px;
 }
 
 .gallery-item {
   border: 1px solid #eeeeee;
   flex-basis: calc(100% / 3 - 30px);
-  margin: 0 30px 30px 0;
+  margin: 30px 0 0 30px;
 }
 
 .gallery-item:hover {
