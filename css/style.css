@@ -57,7 +57,6 @@ a {
 
 .page-header {
   border: 1px solid #ececec;
-  padding: 24px 0;
 }
 
 .logo-header,
@@ -66,6 +65,10 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.logo-header {
+  padding: 24px 0;
 }
 
 .logo-header span,
@@ -115,10 +118,12 @@ a {
 }
 
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  padding: 32px 0;
 }
 
 .nav-link:hover,
@@ -143,6 +148,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 32px 0;
 }
 
 .contacts-header-link:hover,
@@ -250,11 +256,10 @@ a {
 
 .desc-list {
   display: flex;
-  justify-content: space-between;
 }
 
-.desc-item {
-  width: 270px;
+.desc-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 .desc-text {
